@@ -1,3 +1,14 @@
+"""
+Takes in arrays with less than five entries of the form ["integer +/- integer", ... ]
+and formats each array entry side by side as a right alligned problem.
+
+    integer      integer
++   integer    - integer    ...
+___________    _________
+     answer       answer
+     
+"""
+
 def arithmetic_arranger(problems,*show_answers):
     sep_prob = list()
     for problem in problems:
